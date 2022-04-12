@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\x64\Release\Mahjong.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libFLAC-8.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libfreetype-6.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libjpeg-9.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libmodplug-1.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libmpg123-0.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libogg-0.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libopus-0.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libopusfile-0.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libpng16-16.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libtiff-5.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libvorbis-0.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libvorbisfile-3.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\libwebp-7.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\SDL2.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\SDL2_image.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\SDL2_mixer.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\SDL2_ttf.dll</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Projekty\MahjongSolitaire\MahjongSolitaire\VisualStudioSDL\lib\x64\zlib1.dll</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
