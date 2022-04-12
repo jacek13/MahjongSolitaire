@@ -2,7 +2,7 @@
 To gra polegająca na znajdowaniu par jednakowych płytek i usuwaniu ich z planszy
 według ściśle określonych reguł. Płytki można usunać tylko wtedy, gdy nie są one zablokowane, to znaczy, że plytka nie jest przykryta inną lub nie sąsiaduje z lewej i prawej strony z innymi. Rozgrywka kończy się wtedy, gdy usuniemy wszystkie pary z planszy. 
 
-![](../MahjongSolitaire/resources/game_demo.gif)
+![](resources/game_demo.gif)
 
 # 2. **Ustawienia**
 W celu zmiany ustawien w aktualnej wersji programu, nalezy odszukac plik 'config.txt'. Za pomocą słów kluczowych i wartości liczbowych zmieniamy wartosci ustawień.
@@ -102,7 +102,7 @@ PATTERN
 ```
 ### REZULTAT:
 
-![](../MahjongSolitaire/resources/custom_pattern_example.PNG)
+![](resources/custom_pattern_example.PNG)
 ---
 
 # 6. Elementy wykonane/niewykonane:
