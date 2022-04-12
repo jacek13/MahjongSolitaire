@@ -1,0 +1,1 @@
+PATTERN_PATH E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/patterns/basic_pattern.txt

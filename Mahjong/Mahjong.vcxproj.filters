@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów\textures">
+      <UniqueIdentifier>{4c97f8be-aea0-4114-b780-c3a894db2f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\sounds">
+      <UniqueIdentifier>{d84c0a45-04a3-4eda-a90f-912780108f17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="myException.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievements.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="fileSystem.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="timeSystem.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="myException.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="fileSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="timeSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievements.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tiles\a1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a4.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a5.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a6.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a7.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a8.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\a9.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b4.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b5.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b6.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b7.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b8.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\b9.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c4.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c5.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c6.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c7.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c8.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\c9.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\d1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\d2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\d3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\f1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\f2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\f3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\f4.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\s1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\s2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\s3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\s4.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\w1.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\w2.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\w3.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+    <Image Include="tiles\w4.png">
+      <Filter>Pliki zasobów\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="patterns\basic_pattern.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="patterns\alternative_pattern.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="patterns\test_pattern.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\VisualStudioSDL\lib\x64\libFLAC-8.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libfreetype-6.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libjpeg-9.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libmodplug-1.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libmpg123-0.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libogg-0.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libopus-0.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libopusfile-0.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libpng16-16.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libtiff-5.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libvorbis-0.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libvorbisfile-3.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\libwebp-7.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\SDL2.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\SDL2_image.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\SDL2_mixer.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\SDL2_ttf.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\VisualStudioSDL\lib\x64\zlib1.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+  </ItemGroup>
+</Project>

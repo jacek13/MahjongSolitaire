@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Achievements" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEEAAAAAAAAAEAAAAQAAAIAAAAAAAAAAAKAoA=</HashCode>
+      <FileName>Achievements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Board" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ckAQUAAFACIACBAAQgAEAEAQAAQJEAIAIkIAAXIASQA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICgAAABEQAAAAECAAAAAAAAAAEAAJIBQEAAAQAgAA=</HashCode>
+      <FileName>Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fileSystem" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>fileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fileSystem_Engine" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEoCAEAAAAAAAAgABgAIAABAgAAAAACAAAAA=</HashCode>
+      <FileName>fileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fileSystem_Time" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQICAAAAAAAAAAACAAAAABAAAAAEAAAAASAA=</HashCode>
+      <FileName>fileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fileSystem_Achievements" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>fileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fileSystem_Board" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>fileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fileSystem_Game" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACBAAAAICIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>fileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAAAAGAgAAAAAAAFAAAjAIAoAAAAAAAQAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAwAAAAAIAAAAAACAKCAAAAAAIIAAAAAAkAIAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mouse" Collapsed="true">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAABgAAAAAAAAAAAgAAAAAAABgAAACAAA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myException" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAACA=</HashCode>
+      <FileName>myException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myException_Engine" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>myException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myException_fileSystem" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>myException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myException_Board" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>myException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject" Collapsed="true">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="18.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAiIAwAIAgAKIAAAAAAAIACEAAgggIAAAAAIiAACAA=</HashCode>
+      <FileName>Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="timeSystem" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChAAlQAGCgQQAAEwAAAAAAAAhAAQAAIAAAAAAAEEgAA=</HashCode>
+      <FileName>timeSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="rgbaColour" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAEAAQA=</HashCode>
+      <FileName>structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="settings" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAACAAAACAIABAAAAAAAAgAAAAA=</HashCode>
+      <FileName>structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="position" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tileTexture" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="GAME_EVENT" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAABAQAAAAAAAAAQQAoACEAAgAABBAAAgAAAAAACA=</HashCode>
+      <FileName>Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ACHIEVEMENT" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAACAwAAACAEBAAAIAAAAAAAAAAADBCAKAA=</HashCode>
+      <FileName>Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TILE_TYPE" Collapsed="true">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAFrgoCAHAAlAgDhBKAAAgWACEAEAASBBYEAAEQBIA=</HashCode>
+      <FileName>Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SOUND" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BUTTON_TYPE" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAIBAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
