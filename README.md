@@ -5,8 +5,8 @@ To gra polegająca na znajdowaniu par jednakowych płytek i usuwaniu ich z plans
 
 ---
 
-> ## Uruchamianie projektu
->W celu uruchomienia projektu niezbędne będzie skorzystanie z biblioteki SDL2. Pod tym [linkiem](https://drive.google.com/drive/folders/1Sw3VdbnQzKEaawAaY_xsUX6tB6j68zXX?usp=sharing) znajduje się wersja SDL2 wykorzystana w projekcie (Aktualnie dla kompilacji x64 projekt wyszukuje bibliotek w folderze solucji). Po jej pobraniu należy zadbać wrzucenie całego Folderu 'VisualStudioSDL' do folderu solucji tak jak na poniższym obrazku.
+ ## **Uruchamianie projektu**
+W celu uruchomienia projektu niezbędne będzie skorzystanie z biblioteki SDL2. Pod tym [linkiem](https://drive.google.com/drive/folders/1Sw3VdbnQzKEaawAaY_xsUX6tB6j68zXX?usp=sharing) znajduje się wersja SDL2 wykorzystana w projekcie (Aktualnie dla kompilacji x64 projekt wyszukuje bibliotek w folderze solucji). Po jej pobraniu należy zadbać wrzucenie całego Folderu 'VisualStudioSDL' do folderu solucji tak jak na poniższym obrazku.
 
 ![WHERE_STORE_SDL2](resources/where_store_SDL2.PNG)
 
