@@ -6,7 +6,7 @@ To gra polegająca na znajdowaniu par jednakowych płytek i usuwaniu ich z plans
 ---
 
  ## **Uruchamianie projektu**
-W celu uruchomienia projektu niezbędne będzie skorzystanie z biblioteki SDL2. Pod tym [linkiem](https://drive.google.com/drive/folders/1Sw3VdbnQzKEaawAaY_xsUX6tB6j68zXX?usp=sharing) znajduje się wersja SDL2 wykorzystana w projekcie (Aktualnie dla kompilacji x64 projekt wyszukuje bibliotek w folderze solucji). Po jej pobraniu należy zadbać wrzucenie całego Folderu 'VisualStudioSDL' do folderu solucji tak jak na poniższym obrazku.
+W celu uruchomienia projektu niezbędne będzie skorzystanie z biblioteki SDL2. Pod tym [linkiem](https://drive.google.com/drive/folders/1Sw3VdbnQzKEaawAaY_xsUX6tB6j68zXX?usp=sharing) znajduje się wersja SDL2 wykorzystana w projekcie (Aktualnie dla kompilacji x64 projekt wyszukuje bibliotek w folderze solucji). Po jej pobraniu należy zadbać o wrzucenie całego Folderu 'VisualStudioSDL' do folderu solucji tak jak na poniższym obrazku.
 
 ![WHERE_STORE_SDL2](resources/where_store_SDL2.PNG)
 
@@ -15,7 +15,7 @@ Drugą opcją jest ściągnięce folderu i umieszczenie go w miejscu gdzie Visua
 # 2. **Ustawienia**
 W celu zmiany ustawień w aktualnej wersji programu, należy odszukać plik 'config.txt'. Za pomocą słów kluczowych i wartości liczbowych zmieniamy wartości ustawień.
 
-### `PRZYKŁAD`:
+### PRZYKŁAD:
 ```
 FULLSCREEN 1		 <- ustawia pełny ekran
 SCREEN_WIDTH 1600	 <- ustawia szerokość okna na 1600 pikseli
@@ -25,7 +25,7 @@ SCREEN_HEIGHT 900	 <- ustawia wysokość okna na 900 pikseli
 # 3. **Modyfikowanie**
 Program umożliwia modyfikowanie warstwy video poprzez podmiane tekstur i czcionki. Można to zrobić na 2 sposoby. Pierwszy polega na dosłownym podmienieniu poszczególnych plikow. Zachowując te same nazwy plików. Drugim sposobem jest modyfikowanie ścieżek w plikach: **`textures_paths.txt`** oraz **`font_path.txt.`** Za pomoca komend oznaczajacych odpowiednie tekstury mozemy wskazywac cale sciezki do szukanego pliku.
 
-### `PRZYKŁAD`:
+### PRZYKŁAD:
 ```
 BAMBOO_THREE Inne_tekstury/bamboo_3.png	 <- ustawienie ścieżki dla tekstury BAMBOO_THREE
 FONT C:/Inne_czcionki/Merienda-Regular.ttf	 <- ustawia ścieżke do alternatywnej czcionki
@@ -94,7 +94,7 @@ W przypadku gdy pliki w folderze **`'data'`** zostaną źle nadpisane możesz sk
 # 5. Przykładowy wzór dla planszy:
 Program umożliwia wstawianie dowolnej planszy do gry przez użytkownika. 
 
-### `PRZYKŁAD`:
+### PRZYKŁAD:
 ```
 W 12
 H 8
@@ -108,7 +108,7 @@ PATTERN
 700000000007
 654321123456
 ```
-### `REZULTAT`:
+### REZULTAT:
 
 ![](resources/custom_pattern_example.PNG)
 ---
