@@ -10,7 +10,7 @@
 #include<iostream>
 #include<string>
 
-#include<SDL.h>
+#include"SDL.h"
 
 /**
  * Reprezentuje obiekt myszy.

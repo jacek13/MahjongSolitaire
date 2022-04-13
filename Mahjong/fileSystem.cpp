@@ -6,10 +6,10 @@
 #include<string>
 #include<utility>
 
-#include<SDL.h>
-#include<SDL_image.h>
-#include<SDL_ttf.h>
-#include<SDL_mixer.h>
+#include"SDL.h"
+#include"SDL_image.h"
+#include"SDL_ttf.h"
+#include"SDL_mixer.h"
 
 #include"fileSystem.h"
 #include"myException.h"
@@ -18,10 +18,10 @@
 //Funkcja wczytuje sciezki do niezbednych elementow modulu Engine
 bool fileSystem_Engine::load()
 {
-	std::string texturePath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/textures_paths.txt"),
-				soundPath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/sound_paths.txt"),
-				fontPath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/font_path.txt"),
-				iconPath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/icon_path.txt");
+	std::string texturePath("data/textures_paths.txt"),
+				soundPath("data/sound_paths.txt"),
+				fontPath("data/font_path.txt"),
+				iconPath("data/icon_path.txt");
 
 	bool success = true;
 
@@ -167,7 +167,7 @@ size_t fileSystem_Engine::getNumberOfSoundPaths()
 bool fileSystem_Game::load()
 {
 
-	std::string configPath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/config.txt");
+	std::string configPath("data/config.txt");
 	std::vector<std::string>patterns({ "FULLSCREEN","VSYNC","SCREEN_HEIGHT","SCREEN_WIDTH","FONT_COLOUR","BACKGROUND_COLOUR" });
 
 	bool success = true;
@@ -352,7 +352,7 @@ size_t fileSystem_Game::getScreenH() noexcept
 
 bool fileSystem_Board::load()
 {
-	std::string basicPath("E:/Projekty/MahjongSolitaire/MahjongSolitaire/Mahjong/data/pattern_path.txt");
+	std::string basicPath("data/pattern_path.txt");
 
 	bool success = true;
 
@@ -388,7 +388,7 @@ std::string fileSystem_Board::getPatternPath()
 
 bool fileSystem_Achievements::load()
 {
-	std::string achievementsPath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/achievements.txt");
+	std::string achievementsPath("data/achievements.txt");
 
 	bool success = true;
 
@@ -424,7 +424,7 @@ bool fileSystem_Achievements::load()
 
 bool fileSystem_Achievements::save(bool _overwrite)
 {
-	std::string achievementsPath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/achievements.txt");
+	std::string achievementsPath("data/achievements.txt");
 
 	bool success = true;
 
@@ -448,7 +448,7 @@ bool fileSystem_Achievements::save(bool _overwrite)
 
 bool fileSystem_Time::load()
 {
-	std::string timePath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/time.txt");
+	std::string timePath("data/time.txt");
 
 	bool success = true;
 
@@ -486,7 +486,7 @@ bool fileSystem_Time::load()
 
 bool fileSystem_Time::save(bool _overwrite)
 {
-	std::string timePath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/data/time.txt");
+	std::string timePath("data/time.txt");
 
 	bool success = true;
 
@@ -510,7 +510,7 @@ bool fileSystem_Time::save(bool _overwrite)
 
 bool fileSystem_Time::saveCSV(const char* _date, const char* _daytime, const char* _monthYear, int _gameTime, char _separator)
 {
-	std::string timePath("E:/Projekty/PK4/f310ed3c-gr52-repo/Projekt/Mahjong/Mahjong/results/");
+	std::string timePath("results/");
 	timePath += _monthYear;
 	timePath += ".csv";
 

@@ -19,6 +19,27 @@
     <Filter Include="Pliki zasobów\sounds">
       <UniqueIdentifier>{d84c0a45-04a3-4eda-a90f-912780108f17}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki zasobów\data">
+      <UniqueIdentifier>{f0ac4671-7c2b-4107-98ed-c83b3d068640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\font">
+      <UniqueIdentifier>{bfb2a0bb-f018-42ff-ac07-78ea284c98fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\icon">
+      <UniqueIdentifier>{365d7c59-6e88-49ad-adfb-19c807d6b37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\patterns">
+      <UniqueIdentifier>{0a0937ca-96e6-4cb0-b3d3-2b1a4b5d387d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\results">
+      <UniqueIdentifier>{fa694009-524b-4f8a-a223-a8b94765c286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\sound">
+      <UniqueIdentifier>{21a77d7d-f64a-46f3-81cb-1f2693e64517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\tiles">
+      <UniqueIdentifier>{37ed0f22-14a5-4a4a-a58c-e0944f2d0488}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -232,16 +253,187 @@
     <Image Include="tiles\w4.png">
       <Filter>Pliki zasobów\textures</Filter>
     </Image>
+    <Image Include="icon\icon.png">
+      <Filter>Pliki zasobów\icon</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_1.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_2.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_3.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_4.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_5.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_6.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_7.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_8.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\bamboo_9.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\default.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\default_alternative.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_1.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_2.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_3.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_4.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_5.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_6.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_7.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_8.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\dots_9.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\help.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\selected.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_black_1.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_black_2.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_black_3.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_black_4.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_gold_1.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_gold_2.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_gold_3.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_gold_4.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_green.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_green_fiz.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_rectangle.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_red_1.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_red_2.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_red_3.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_red_4.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\sign_red_5.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_1.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_2.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_3.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_4.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_5.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_6.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_7.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_8.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
+    <Image Include="tiles\signs_9.png">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="patterns\basic_pattern.txt">
-      <Filter>Pliki zasobów</Filter>
+    <Text Include="data\achievements.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\config.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\font_path.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\icon_path.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\pattern_path.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\sound_paths.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\textures_paths.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="data\time.txt">
+      <Filter>Pliki zasobów\data</Filter>
+    </Text>
+    <Text Include="patterns\kurnik_pattern.txt">
+      <Filter>Pliki zasobów\patterns</Filter>
     </Text>
     <Text Include="patterns\alternative_pattern.txt">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\patterns</Filter>
+    </Text>
+    <Text Include="patterns\basic_pattern.txt">
+      <Filter>Pliki zasobów\patterns</Filter>
     </Text>
     <Text Include="patterns\test_pattern.txt">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki zasobów\patterns</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -300,5 +492,33 @@
     <None Include="..\VisualStudioSDL\lib\x64\zlib1.dll">
       <Filter>Pliki zasobów</Filter>
     </None>
+    <None Include="results\04-2021.csv">
+      <Filter>Pliki zasobów\results</Filter>
+    </None>
+    <None Include="results\04-2022.csv">
+      <Filter>Pliki zasobów\results</Filter>
+    </None>
+    <None Include="results\05-2021.csv">
+      <Filter>Pliki zasobów\results</Filter>
+    </None>
+    <None Include="results\09-2021.csv">
+      <Filter>Pliki zasobów\results</Filter>
+    </None>
+    <None Include="tiles\license.md">
+      <Filter>Pliki zasobów\tiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\Merienda-Regular.ttf">
+      <Filter>Pliki zasobów\font</Filter>
+    </Font>
+    <Font Include="font\Quintessential-Regular.ttf">
+      <Filter>Pliki zasobów\font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\button.wav">
+      <Filter>Pliki zasobów\sound</Filter>
+    </Media>
   </ItemGroup>
 </Project>

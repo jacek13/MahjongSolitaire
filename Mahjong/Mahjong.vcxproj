@@ -195,6 +195,9 @@
     <ClInclude Include="timeSystem.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="icon\icon.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="tiles\a1.png" />
     <Image Include="tiles\a2.png" />
     <Image Include="tiles\a3.png" />
@@ -213,6 +216,33 @@
     <Image Include="tiles\b7.png" />
     <Image Include="tiles\b8.png" />
     <Image Include="tiles\b9.png" />
+    <Image Include="tiles\bamboo_1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_5.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_6.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_7.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_8.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\bamboo_9.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="tiles\c1.png" />
     <Image Include="tiles\c2.png" />
     <Image Include="tiles\c3.png" />
@@ -225,23 +255,170 @@
     <Image Include="tiles\d1.png" />
     <Image Include="tiles\d2.png" />
     <Image Include="tiles\d3.png" />
+    <Image Include="tiles\default.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\default_alternative.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_5.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_6.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_7.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_8.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\dots_9.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="tiles\f1.png" />
     <Image Include="tiles\f2.png" />
     <Image Include="tiles\f3.png" />
     <Image Include="tiles\f4.png" />
+    <Image Include="tiles\help.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="tiles\s1.png" />
     <Image Include="tiles\s2.png" />
     <Image Include="tiles\s3.png" />
     <Image Include="tiles\s4.png" />
+    <Image Include="tiles\selected.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_5.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_6.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_7.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_8.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\signs_9.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_black_1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_black_2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_black_3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_black_4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_gold_1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_gold_2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_gold_3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_gold_4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_green.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_green_fiz.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_rectangle.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_red_1.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_red_2.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_red_3.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_red_4.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="tiles\sign_red_5.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="tiles\w1.png" />
     <Image Include="tiles\w2.png" />
     <Image Include="tiles\w3.png" />
     <Image Include="tiles\w4.png" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="patterns\alternative_pattern.txt" />
-    <Text Include="patterns\basic_pattern.txt" />
-    <Text Include="patterns\test_pattern.txt" />
+    <Text Include="data\achievements.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\config.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\font_path.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\icon_path.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\pattern_path.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\sound_paths.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\textures_paths.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="data\time.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="patterns\alternative_pattern.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="patterns\basic_pattern.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="patterns\kurnik_pattern.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="patterns\test_pattern.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\VisualStudioSDL\lib\x64\libFLAC-8.dll">
@@ -299,6 +476,26 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="ClassDiagram.cd" />
+    <None Include="results\04-2021.csv" />
+    <None Include="results\04-2022.csv" />
+    <None Include="results\05-2021.csv" />
+    <None Include="results\09-2021.csv" />
+    <None Include="tiles\license.md">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\Merienda-Regular.ttf">
+      <DeploymentContent>true</DeploymentContent>
+    </Font>
+    <Font Include="font\Quintessential-Regular.ttf">
+      <DeploymentContent>true</DeploymentContent>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\button.wav">
+      <DeploymentContent>true</DeploymentContent>
+    </Media>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

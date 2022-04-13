@@ -1,13 +1,21 @@
 # 1. **Mahjong Solitaire**
-To gra polegająca na znajdowaniu par jednakowych płytek i usuwaniu ich z planszy
-według ściśle określonych reguł. Płytki można usunać tylko wtedy, gdy nie są one zablokowane, to znaczy, że plytka nie jest przykryta inną lub nie sąsiaduje z lewej i prawej strony z innymi. Rozgrywka kończy się wtedy, gdy usuniemy wszystkie pary z planszy. 
+To gra polegająca na znajdowaniu par jednakowych płytek i usuwaniu ich z planszy według ściśle określonych reguł. Płytki można usunać tylko wtedy, gdy nie są one zablokowane, to znaczy, że plytka nie jest przykryta inną lub nie sąsiaduje z lewej i prawej strony z innymi. Rozgrywka kończy się wtedy, gdy usuniemy wszystkie pary z planszy. 
 
-![](resources/game_demo.gif)
+![GAME_DEMO](resources/game_demo.gif)
+
+---
+
+> ## Uruchamianie projektu
+>W celu uruchomienia projektu niezbędne będzie skorzystanie z biblioteki SDL2. Pod tym [linkiem](https://drive.google.com/drive/folders/1Sw3VdbnQzKEaawAaY_xsUX6tB6j68zXX?usp=sharing) znajduje się wersja SDL2 wykorzystana w projekcie (Aktualnie dla kompilacji x64 projekt wyszukuje bibliotek w folderze solucji). Po jej pobraniu należy zadbać wrzucenie całego Folderu 'VisualStudioSDL' do folderu solucji tak jak na poniższym obrazku.
+
+![WHERE_STORE_SDL2](resources/where_store_SDL2.PNG)
+
+Drugą opcją jest ściągnięce folderu i umieszczenie go w miejscu gdzie Visual Studio wyszukuje standardowo biblioteki i pliki nagłówkowe. Wtedy należy zmienić w plikach sposób wskazywania plików nagłówkowych dla preprocesora z `"nazwa_pliku.h"` na `<nazwa_pliku.h>`.
 
 # 2. **Ustawienia**
-W celu zmiany ustawien w aktualnej wersji programu, nalezy odszukac plik 'config.txt'. Za pomocą słów kluczowych i wartości liczbowych zmieniamy wartosci ustawień.
+W celu zmiany ustawień w aktualnej wersji programu, należy odszukać plik 'config.txt'. Za pomocą słów kluczowych i wartości liczbowych zmieniamy wartości ustawień.
 
-PRZYKŁAD:
+### `PRZYKŁAD`:
 ```
 FULLSCREEN 1		 <- ustawia pełny ekran
 SCREEN_WIDTH 1600	 <- ustawia szerokość okna na 1600 pikseli
@@ -15,16 +23,16 @@ SCREEN_HEIGHT 900	 <- ustawia wysokość okna na 900 pikseli
 ```
 
 # 3. **Modyfikowanie**
-Program umożliwia modyfikowanie warstwy video poprzez podmiane tekstur i czcionki. Można to zrobić na 2 sposoby. Pierwszy polega na dosłownym podmienieniu poszczególnych plikow. Zachowując te same nazwy plików. Drugim sposobem jest modyfikowanie ścieżek w plikach: **'textures_paths.txt'** oraz **'font_path.txt.'** Za pomoca komend oznaczajacych odpowiednie tekstury mozemy wskazywac cale sciezki do szukanego pliku.
+Program umożliwia modyfikowanie warstwy video poprzez podmiane tekstur i czcionki. Można to zrobić na 2 sposoby. Pierwszy polega na dosłownym podmienieniu poszczególnych plikow. Zachowując te same nazwy plików. Drugim sposobem jest modyfikowanie ścieżek w plikach: **`textures_paths.txt`** oraz **`font_path.txt.`** Za pomoca komend oznaczajacych odpowiednie tekstury mozemy wskazywac cale sciezki do szukanego pliku.
 
-PRZYKŁAD:
+### `PRZYKŁAD`:
 ```
-BAMBOO_THREE E:/Inne_tekstury/bamboo_3.png	 <- ustawienie ścieżki dla tekstury BAMBOO_THREE
-FONT E:/Inne_czcionki/Merienda-Regular.ttf	 <- ustawia ścieżke do alternatywnej czcionki
+BAMBOO_THREE Inne_tekstury/bamboo_3.png	 <- ustawienie ścieżki dla tekstury BAMBOO_THREE
+FONT C:/Inne_czcionki/Merienda-Regular.ttf	 <- ustawia ścieżke do alternatywnej czcionki
 ```
 
 # 4. **Spis komend**
-W przypadku gdy pliki w folderze **'data'** zostaną źle nadpisane możesz skorzystac z poniższej listy komend zawierajacej wszystkie niezbędne słowa kluczowe dla poszczególnych plikow. W razie skasowania zawartosci pliku **'readme.txt'** wystarczy usunąć go trwale. Program w takim wypadku wykryje brak pliku i stworzy go na nowo.
+W przypadku gdy pliki w folderze **`'data'`** zostaną źle nadpisane możesz skorzystac z poniższej listy komend zawierajacej wszystkie niezbędne słowa kluczowe dla poszczególnych plikow. W razie skasowania zawartosci pliku **`'readme.txt'`** wystarczy usunąć go trwale. Program w takim wypadku wykryje brak pliku i stworzy go na nowo.
 
 ### Lista komend:
 1) **dla pliku 'textures_paths.txt'**
@@ -86,7 +94,7 @@ W przypadku gdy pliki w folderze **'data'** zostaną źle nadpisane możesz skor
 # 5. Przykładowy wzór dla planszy:
 Program umożliwia wstawianie dowolnej planszy do gry przez użytkownika. 
 
-### PRZYKŁAD:
+### `PRZYKŁAD`:
 ```
 W 12
 H 8
@@ -100,7 +108,7 @@ PATTERN
 700000000007
 654321123456
 ```
-### REZULTAT:
+### `REZULTAT`:
 
 ![](resources/custom_pattern_example.PNG)
 ---
@@ -113,6 +121,7 @@ PATTERN
 * [X] odwzorowanie pełnej mechaniki [Mahjong Solitaire](https://www.kurnik.pl/mahjong/) na której się wzorowałem
 * [ ] interaktywne menu graficzne
 * [ ] generowanie różnych serii permutacji danej planszy tak, aby 2 graczy na różnych komputerach mogło zmierzyć się ze sobą w takich samych konfiguracjach
+* [ ] dostosowanie projektu pod inne platformy systemowe (Linux, macOS)
 
 # 7. Źródła wykorzystywane w projekcie:
 * [SDL2](https://www.libsdl.org/download-2.0.php)
